@@ -33,6 +33,6 @@ arguments must be provided as integers. The other parameters are calculated from
 
 ## Parameter Calculation
 Closing Time = User Provided
-# of Changing Rooms = User Provided
-# of Waiting Room Chairs = (# of Changing Rooms) * 2
-# of Customers = (# of Changing Rooms) + (# of Waiting Room Chairs)
+Number of Changing Rooms = User Provided
+Number of Waiting Room Chairs = (Number of Changing Rooms) * 2
+Number of Customers = (Number of Changing Rooms) + (Number of Waiting Room Chairs)
