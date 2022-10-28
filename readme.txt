@@ -1,4 +1,4 @@
-[Description]
+# Description
 This program aims to simulate the flow of customers at a clothing store with multithreading. 
 
 Each customer in the simulation is represented by a runnable object. A customer object being assigned to a thread and run represents
@@ -17,16 +17,21 @@ The customer then spends a random interval between 0 and 1 seconds in the changi
 This process takes place for all customers in the system until the store closes or all customers are finished shopping and have left the store. The customers that
 are in the store after closing time are allowed to finish shopping, but no more customers are allowed entry.
 
-[Running the simulation]
+# Running the simulation
 Compile:
+    ```bash
     javac ChangingRoom.java
+    ```
 
 Run:
+    ```bash
     java ChangingRoom [Closing time (seconds)] [# of Changing Rooms]
-
-The program requires two arguments to run properly: the closing time of the store in seconds, and the number of changing rooms in the store. Both
+    ```
+   
+> The program requires two arguments to run properly: the closing time of the store in seconds, and the number of changing rooms in the store. Both
 arguments must be provided as integers. The other parameters are calculated from the ones the user provides as shown below.
 
+## Parameter Calculation
 Closing Time = User Provided
 # of Changing Rooms = User Provided
 # of Waiting Room Chairs = (# of Changing Rooms) * 2
