@@ -15,13 +15,13 @@ This process takes place for all customers in the system until the store closes 
 
 # Running the simulation
 Compile:
-    ```bash
+    ```
     javac ChangingRoom.java
     ```
 
 Run:
-    ```bash
-    java ChangingRoom [Closing time (seconds)] [# of Changing Rooms]
+    ```
+    java ChangingRoom [Closing time (seconds)] [Number of Changing Rooms]
     ```
    
 > The program requires two arguments to run properly: the closing time of the store in seconds, and the number of changing rooms in the store. Both arguments must be provided as integers. The other parameters are calculated from the ones the user provides as shown below.
